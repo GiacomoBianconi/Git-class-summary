@@ -1,0 +1,22 @@
+===========================================================================
+Summary of lesson 1:
+===========================================================================
+
+
+1-git log: shows the list of commits
+  git log --stat: add some statistics to the log
+
+2-git diff commit_id_1 commit_id_2: the black line are untouched, the red lines 				    with a minus are removed from the commit id 				    to the commit id 2, the green lines with a +				    are added from id 1 to id 2
+				
+
+Important: when we create a commit, create a copy of all the files in the reposi           tory even if the files are not changed
+
+	   the repository is a copy of the story of all the file in the consider	   ed folder
+
+3-git clone address: close the selected repository
+
+4- git config --global(to all the projects) color.ui auto: will use the black / 							   red / green color con							   ventions defined befo							   re in the diff
+
+5- git checkout commit_id: reset the repository to commit id
+
+Important: HEAD is the current commit we are considering

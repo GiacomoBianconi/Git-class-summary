@@ -1,0 +1,16 @@
+===========================================================================
+Summary of lesson 2:
+===========================================================================
+
+1- git init: iniziale the current directory as a git directory (it will create t	     he .git meta folder)
+
+Important: when creating a repo, git is not creating any commit
+
+2-git status: see which files have changed since the last commit
+
+Working directory: folder location on the hard disk
+
+3-git add file_name: add the file to the staging area
+
+Important: staging area is a zone wehere we save the files we want to commit
+			
