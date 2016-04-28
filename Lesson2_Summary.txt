@@ -38,8 +38,10 @@ Important: each commit has a refernce to its parent. unreachable commit is a com
 
 Important: when merging two branches git will create a commit with two parents equal to the latest commit of the two original branches. The commit are then show in the log based on the time they are created
 
-13-git merge branch1 branch2: merge branch2 into branch1
+13-git merge branch1 branch2: merge branch2 into branch1, I need to checkout the branch I want to merge into
 
 14-git show id: show the diifference between the commit id and its parent
 
 15-git branch -d branch_id: delete the branch id
+
+Important: in case of a conflit when merging, git creates three sections in a file we want to merge: the code on the branch 1 (HEAD, branch we have checked out), the original code and the code in the branch 2

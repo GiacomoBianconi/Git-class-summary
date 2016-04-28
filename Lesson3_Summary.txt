@@ -3,3 +3,15 @@ Lesson 3 Summary
 =======================================================================
 
 Use of github
+
+Important: remote is the location of the repo to which we push or from which we pull
+
+To push to github, I first need to create an empty repo on github
+
+1-git remote: show the remotes available
+
+2-git remote add origin "url": add the remote specified by the url and call it origin 
+
+3-git remote -v: verbose, add more comments
+
+4- git push remote local branch: push the local branch in the specified remote
