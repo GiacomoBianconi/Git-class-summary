@@ -15,3 +15,19 @@ To push to github, I first need to create an empty repo on github
 3-git remote -v: verbose, add more comments
 
 4- git push remote local branch: push the local branch in the specified remote
+
+Important: Fork a repo in githib means creating a copy of that repo directly on github
+
+Important: when cloning a repo from github I get a copy of the last know version of the brances availables on the github servers, they are called origin\masteri
+
+5-git fetch: update only the locacl copy of the remote branch and not the local branch
+
+Important: git pull origin master = git fecth (update origin\master) + git merge origin\master master
+
+Imprtant: if I want to merge a barnch into another one who can reach the first one head, I will have a fast-forward merge where I do not create a new commit pointing to two different comiits
+
+es  O(a)<--O<--O(b) This is what is going to happen if I wanto to merge b into a, in this case, we will just move the branch a to b (not true on github)
+
+Important: Pullrequest: ask on github to a collaborator to check your code before merging in master
+
+Important: I can not resolve conflicts on github, I need to do it locally
